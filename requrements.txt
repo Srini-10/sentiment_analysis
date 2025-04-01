@@ -1,0 +1,31 @@
+# PYTHON DOWNLOAD AND INSTALLATION
+{
+    https://www.python.org/downloads/windows/
+    checkbox -> Add Python to PATH
+}
+python --version
+
+
+# PYTHON VIRTUAL MACHINE CREATION
+python3 -m venv venv
+source venv/bin/activate / venv\Scripts\activate
+
+
+# UPGRADE PIP
+pip install --upgrade pip
+
+
+# INSTALL PACKAGES
+pip3 install streamlit
+pip3 install joblib  
+pip3 install scikit-learn
+
+-------------------OR-------------------
+
+pip install streamlit
+pip install joblib  
+pip install scikit-learn
+
+
+# RUN PROJECT
+streamlit run app.py
